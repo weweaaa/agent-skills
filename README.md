@@ -4,7 +4,7 @@
 
 <table border="0" cellspacing="0" cellpadding="10">
 <tr>
-<td valign="top">
+<td valign="top" width="50%">
 
 ### [Mastering Agent Skills](https://agentic-ventures.com/mastering-agent-skills)
 
@@ -13,7 +13,7 @@ Join a hands-on workshop for AI power users to use and create Agent Skills.
 <a href="https://agentic-ventures.com/mastering-agent-skills"><img src="https://agentic-ventures.com/skills/mastering-agent-skills/opengraph-image?847390cc6f31fc75" width="100%" alt="Mastering Agent Skills"></a>
 
 </td>
-<td valign="top">
+<td valign="top" width="50%">
 
 ### [Introduction to Agent Skills](https://agentic-ventures.com/introduction-to-agent-skills)
 
