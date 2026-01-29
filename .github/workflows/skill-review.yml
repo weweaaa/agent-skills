@@ -4,10 +4,6 @@ on:
   schedule:
     - cron: '0 15 * * 5'  # 16:00 CET every Friday
   workflow_dispatch:
-  push:
-    branches:
-      - main
-      - reviewbot
 
 jobs:
   review-skills:
