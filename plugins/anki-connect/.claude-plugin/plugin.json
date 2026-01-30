@@ -1,0 +1,12 @@
+{
+  "name": "anki-connect",
+  "version": "0.1.1768994658",
+  "description": "This skill is for interacting with Anki through AnkiConnect, and should be used whenever a user asks to interact with Anki, including to read or modify decks, notes, cards, models, media, or sync operations.",
+  "author": {
+    "name": "Eleanor Berger",
+    "url": "https://intellectronica.net"
+  },
+  "repository": "https://github.com/intellectronica/agent-skills",
+  "homepage": "https://github.com/intellectronica/agent-skills/tree/main/plugins/anki-connect",
+  "license": "MIT"
+}

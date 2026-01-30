@@ -1,0 +1,12 @@
+{
+  "name": "ultrathink",
+  "version": "0.1.1768936949",
+  "description": "Display colorful ANSI art of the word \"ultrathink\". Use when the user says \"ultrathink\" or invokes /ultrathink.",
+  "author": {
+    "name": "Eleanor Berger",
+    "url": "https://intellectronica.net"
+  },
+  "repository": "https://github.com/intellectronica/agent-skills",
+  "homepage": "https://github.com/intellectronica/agent-skills/tree/main/plugins/ultrathink",
+  "license": "MIT"
+}

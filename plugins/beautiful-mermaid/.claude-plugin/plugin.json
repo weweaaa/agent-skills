@@ -1,0 +1,12 @@
+{
+  "name": "beautiful-mermaid",
+  "version": "0.1.1769684732",
+  "description": "Render Mermaid diagrams as SVG and PNG using the Beautiful Mermaid library. Use when the user asks to render a Mermaid diagram.",
+  "author": {
+    "name": "Eleanor Berger",
+    "url": "https://intellectronica.net"
+  },
+  "repository": "https://github.com/intellectronica/agent-skills",
+  "homepage": "https://github.com/intellectronica/agent-skills/tree/main/plugins/beautiful-mermaid",
+  "license": "MIT"
+}

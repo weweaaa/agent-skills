@@ -1,0 +1,12 @@
+{
+  "name": "youtube-transcript",
+  "version": "0.1.1768936949",
+  "description": "Extract transcripts from YouTube videos. Use when the user asks for a transcript, subtitles, or captions of a YouTube video and provides a YouTube URL (youtube.com/watch?v=, youtu.be/, or similar). Supports output with or without timestamps.",
+  "author": {
+    "name": "Eleanor Berger",
+    "url": "https://intellectronica.net"
+  },
+  "repository": "https://github.com/intellectronica/agent-skills",
+  "homepage": "https://github.com/intellectronica/agent-skills/tree/main/plugins/youtube-transcript",
+  "license": "MIT"
+}

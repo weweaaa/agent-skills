@@ -1,0 +1,12 @@
+{
+  "name": "markdown-converter",
+  "version": "0.1.1768936949",
+  "description": "Convert documents and files to Markdown using markitdown. Use when converting PDF, Word (.docx), PowerPoint (.pptx), Excel (.xlsx, .xls), HTML, CSV, JSON, XML, images (with EXIF/OCR), audio (with transcription), ZIP archives, YouTube URLs, or EPubs to Markdown format for LLM processing or text analysis.",
+  "author": {
+    "name": "Eleanor Berger",
+    "url": "https://intellectronica.net"
+  },
+  "repository": "https://github.com/intellectronica/agent-skills",
+  "homepage": "https://github.com/intellectronica/agent-skills/tree/main/plugins/markdown-converter",
+  "license": "MIT"
+}

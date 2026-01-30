@@ -1,0 +1,22 @@
+# context7
+
+Retrieve up-to-date documentation for software libraries, frameworks, and components via the Context7 API. This skill should be used when looking up documentation for any programming library or framework, finding code examples for specific APIs or features, verifying correct usage of library functions, or obtaining current information about library APIs that may have changed since training.
+
+## Installation
+
+### Claude Code / Cowork
+
+```bash
+/plugin marketplace add intellectronica/agent-skills
+/plugin install context7@intellectronica-skills
+```
+
+### npx skills
+
+```bash
+npx skills add intellectronica/agent-skills --skill context7
+```
+
+---
+
+> This plugin is auto-generated from [skills/context7](../../skills/context7).

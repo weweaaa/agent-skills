@@ -1,0 +1,144 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "intellectronica-skills",
+  "description": "A curated collection of agent skills for Claude Code and Cowork",
+  "owner": {
+    "name": "Eleanor Berger",
+    "url": "https://intellectronica.net"
+  },
+  "plugins": [
+    {
+      "name": "anki-connect",
+      "source": "./plugins/anki-connect",
+      "description": "This skill is for interacting with Anki through AnkiConnect, and should be used whenever a user asks to interact with Anki, including to read or modify decks, notes, cards, models, media, or sync operations.",
+      "version": "0.1.1768994658",
+      "category": "integrations"
+    },
+    {
+      "name": "beautiful-mermaid",
+      "source": "./plugins/beautiful-mermaid",
+      "description": "Render Mermaid diagrams as SVG and PNG using the Beautiful Mermaid library. Use when the user asks to render a Mermaid diagram.",
+      "version": "0.1.1769684732",
+      "category": "productivity"
+    },
+    {
+      "name": "context7",
+      "source": "./plugins/context7",
+      "description": "Retrieve up-to-date documentation for software libraries, frameworks, and components via the Context7 API. This skill should be used when looking up documentation for any programming library or framework, finding code examples for specific APIs or features, verifying correct usage of library functions, or obtaining current information about library APIs that may have changed since training.",
+      "version": "0.1.1768935194",
+      "category": "development"
+    },
+    {
+      "name": "copilot-sdk",
+      "source": "./plugins/copilot-sdk",
+      "description": "This skill provides guidance for creating agents and applications with the GitHub Copilot SDK. It should be used when the user wants to create, modify, or work on software that uses the GitHub Copilot SDK in TypeScript, Python, Go, or .NET. The skill covers SDK usage patterns, CLI configuration, custom tools, MCP servers, and custom agents.",
+      "version": "0.1.1769180363",
+      "category": "development"
+    },
+    {
+      "name": "gog-cli",
+      "source": "./plugins/gog-cli",
+      "description": "This skill provides comprehensive instructions for using gogcli (gog), a fast, script-friendly CLI for Google Workspace services including Gmail, Calendar, Drive, Docs, Sheets, Slides, Chat, Classroom, Contacts, Tasks, People, Groups, and Keep. This skill should be used when the user wants to interact with Google services via the command line, including reading/sending email, managing calendar events, working with Google Drive files, managing classroom courses, or any other Google Workspace operations. The skill assumes gog is installed and authorised.",
+      "version": "0.1.1769718127",
+      "category": "integrations"
+    },
+    {
+      "name": "gpt-image-1-5",
+      "source": "./plugins/gpt-image-1-5",
+      "description": "Generate and edit images using OpenAI's GPT Image 1.5 model. Use when the user asks to generate, create, edit, modify, change, alter, or update images. Also use when user references an existing image file and asks to modify it in any way (e.g., \"modify this image\", \"change the background\", \"replace X with Y\"). Supports text-to-image generation and image editing with optional mask. DO NOT read the image file first - use this skill directly with the --input-image parameter.",
+      "version": "0.1.1768936949",
+      "category": "media"
+    },
+    {
+      "name": "here-be-git",
+      "source": "./plugins/here-be-git",
+      "description": "Initialise a git repository with optional agent commit instructions and .gitignore. Use when users say \"here be git\", \"init git\", \"initialise git\", or otherwise indicate they want to set up version control in the current directory.",
+      "version": "0.1.1768936949",
+      "category": "development"
+    },
+    {
+      "name": "lorem-ipsum",
+      "source": "./plugins/lorem-ipsum",
+      "description": "Generate lorem ipsum placeholder text. This skill should be used when users ask to generate lorem ipsum content, placeholder text, dummy text, or filler text. Supports various structures including plain paragraphs, headings with sections, lists, and continuous text. Output can be saved to a file or used directly as requested by the user.",
+      "version": "0.1.1768936949",
+      "category": "productivity"
+    },
+    {
+      "name": "markdown-converter",
+      "source": "./plugins/markdown-converter",
+      "description": "Convert documents and files to Markdown using markitdown. Use when converting PDF, Word (.docx), PowerPoint (.pptx), Excel (.xlsx, .xls), HTML, CSV, JSON, XML, images (with EXIF/OCR), audio (with transcription), ZIP archives, YouTube URLs, or EPubs to Markdown format for LLM processing or text analysis.",
+      "version": "0.1.1768936949",
+      "category": "productivity"
+    },
+    {
+      "name": "mgrep-code-search",
+      "source": "./plugins/mgrep-code-search",
+      "description": "Semantic code search using mgrep for efficient codebase exploration. This skill should be used when searching or exploring codebases with more than 30 non-gitignored files and/or nested directory structures. It provides natural language semantic search that complements traditional grep/ripgrep for finding features, understanding intent, and exploring unfamiliar code.",
+      "version": "0.1.1768936949",
+      "category": "development"
+    },
+    {
+      "name": "nano-banana-pro",
+      "source": "./plugins/nano-banana-pro",
+      "description": "Generate and edit images using Google's Nano Banana Pro (Gemini 3 Pro Image) API. Use when the user asks to generate, create, edit, modify, change, alter, or update images. Also use when user references an existing image file and asks to modify it in any way (e.g., \"modify this image\", \"change the background\", \"replace X with Y\"). Supports both text-to-image generation and image-to-image editing with configurable resolution (1K default, 2K, or 4K for high resolution). DO NOT read the image file first - use this skill directly with the --input-image parameter.",
+      "version": "0.1.1768936949",
+      "category": "media"
+    },
+    {
+      "name": "notion-api",
+      "source": "./plugins/notion-api",
+      "description": "This skill provides comprehensive instructions for interacting with the Notion API via REST calls. This skill should be used whenever the user asks to interact with Notion, including reading, creating, updating, or deleting pages, databases, blocks, comments, or any other Notion content. The skill covers authentication, all available endpoints, pagination, error handling, and best practices.",
+      "version": "0.1.1769613281",
+      "category": "integrations"
+    },
+    {
+      "name": "promptify",
+      "source": "./plugins/promptify",
+      "description": "Transform user requests into detailed, precise prompts for AI models. Use when users say \"promptify\", \"promptify this\", or explicitly request prompt engineering or improvement of their request for better AI responses.",
+      "version": "0.1.1768936949",
+      "category": "productivity"
+    },
+    {
+      "name": "raindrop-api",
+      "source": "./plugins/raindrop-api",
+      "description": "This skill provides comprehensive instructions for interacting with the Raindrop.io bookmarks service via its REST API using curl and jq. It covers authentication, CRUD operations for collections, raindrops (bookmarks), tags, highlights, filters, import/export, and backups. Use this skill whenever the user asks to work with their bookmarks from Raindrop.io, including reading, creating, updating, deleting, searching, or organising bookmarks and collections.",
+      "version": "0.1.1769629481",
+      "category": "integrations"
+    },
+    {
+      "name": "ray-so-code-snippet",
+      "source": "./plugins/ray-so-code-snippet",
+      "description": "Generate beautiful code snippet images using ray.so. This skill should be used when the user asks to create a code image, code screenshot, code snippet image, or wants to make their code look pretty for sharing. Saves images locally to the current working directory or a user-specified path.",
+      "version": "0.1.1769029639",
+      "category": "productivity"
+    },
+    {
+      "name": "tavily",
+      "source": "./plugins/tavily",
+      "description": "Use this skill for web search, extraction, mapping, crawling, and research via Tavily\u2019s REST API when web searches are needed and no built-in tool is available, or when Tavily\u2019s LLM-friendly format is beneficial.",
+      "version": "0.1.1768936124",
+      "category": "productivity"
+    },
+    {
+      "name": "todoist-api",
+      "source": "./plugins/todoist-api",
+      "description": "This skill provides instructions for interacting with the Todoist REST API v2 using curl and jq. It covers authentication, CRUD operations for tasks/projects/sections/labels/comments, pagination handling, and requires confirmation before destructive actions. Use this skill when the user wants to read, create, update, or delete Todoist data via the API.",
+      "version": "0.1.1769606039",
+      "category": "integrations"
+    },
+    {
+      "name": "ultrathink",
+      "source": "./plugins/ultrathink",
+      "description": "Display colorful ANSI art of the word \"ultrathink\". Use when the user says \"ultrathink\" or invokes /ultrathink.",
+      "version": "0.1.1768936949",
+      "category": "productivity"
+    },
+    {
+      "name": "youtube-transcript",
+      "source": "./plugins/youtube-transcript",
+      "description": "Extract transcripts from YouTube videos. Use when the user asks for a transcript, subtitles, or captions of a YouTube video and provides a YouTube URL (youtube.com/watch?v=, youtu.be/, or similar). Supports output with or without timestamps.",
+      "version": "0.1.1768936949",
+      "category": "productivity"
+    }
+  ]
+}

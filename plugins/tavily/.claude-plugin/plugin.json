@@ -1,0 +1,12 @@
+{
+  "name": "tavily",
+  "version": "0.1.1768936124",
+  "description": "Use this skill for web search, extraction, mapping, crawling, and research via Tavily\u2019s REST API when web searches are needed and no built-in tool is available, or when Tavily\u2019s LLM-friendly format is beneficial.",
+  "author": {
+    "name": "Eleanor Berger",
+    "url": "https://intellectronica.net"
+  },
+  "repository": "https://github.com/intellectronica/agent-skills",
+  "homepage": "https://github.com/intellectronica/agent-skills/tree/main/plugins/tavily",
+  "license": "MIT"
+}

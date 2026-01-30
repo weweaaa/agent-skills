@@ -1,0 +1,12 @@
+{
+  "name": "todoist-api",
+  "version": "0.1.1769606039",
+  "description": "This skill provides instructions for interacting with the Todoist REST API v2 using curl and jq. It covers authentication, CRUD operations for tasks/projects/sections/labels/comments, pagination handling, and requires confirmation before destructive actions. Use this skill when the user wants to read, create, update, or delete Todoist data via the API.",
+  "author": {
+    "name": "Eleanor Berger",
+    "url": "https://intellectronica.net"
+  },
+  "repository": "https://github.com/intellectronica/agent-skills",
+  "homepage": "https://github.com/intellectronica/agent-skills/tree/main/plugins/todoist-api",
+  "license": "MIT"
+}
