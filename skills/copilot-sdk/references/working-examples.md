@@ -317,6 +317,7 @@ session = await client.create_session({
 ```python
 from copilot import define_tool, ToolInvocation
 from datetime import datetime
+from datetime import datetime
 
 # No params
 @define_tool(description="Get current time")
