@@ -1,6 +1,6 @@
 ---
 name: copilot-sdk
-description: This skill provides guidance for creating agents and applications with the GitHub Copilot SDK. It should be used when the user wants to create, modify, or work on software that uses the GitHub Copilot SDK in TypeScript, Python, Go, or .NET. The skill covers SDK usage patterns, CLI configuration, custom tools, MCP servers, hooks, BYOK providers, infinite sessions, skills, and custom agents.
+description: This skill provides guidance for creating agents and applications with the GitHub Copilot SDK. It should be used when the user wants to create, modify, or work on software that uses the GitHub Copilot SDK in TypeScript, Python, Go, or .NET. The skill covers SDK usage patterns, CLI configuration, custom tools, MCP servers, hooks, BYOK providers, infinite sessions, skills, and custom agents. Includes production-ready examples with real-world application scenarios for session lifecycle management, error handling strategies, and compliance audit systems.
 ---
 
 # GitHub Copilot SDK
@@ -98,6 +98,8 @@ await client.stop();
 **Critical:** Register event handlers **before** calling `send()` to capture all events.
 
 For complete examples in all languages, see `references/working-examples.md`.
+
+For production-ready implementations with real-world scenarios, see `references/practical-examples.md`.
 
 ---
 
@@ -307,6 +309,8 @@ const session = await client.createSession({
 
 For full hook API and all language examples, see `references/working-examples.md`.
 
+**For production-ready implementations** with complete application scenarios (session lifecycle management, error handling strategies, compliance audit systems), see `references/practical-examples.md`.
+
 ---
 
 ## BYOK (Bring Your Own Key)
@@ -496,6 +500,7 @@ For debugging techniques, see `references/troubleshooting.md`.
 Detailed documentation in this skill:
 
 - `references/working-examples.md` - Complete examples for all languages, tools, hooks, BYOK, MCP, attachments
+- `references/practical-examples.md` - **Production-ready real-world applications** with complete hook implementations, error handling strategies, and compliance audit systems
 - `references/event-system.md` - All 31+ event types, lifecycle, SessionEvent structure, ephemeral flags
 - `references/troubleshooting.md` - Common issues, debugging techniques, hook/MCP/BYOK troubleshooting
 - `references/cli-agents-mcp.md` - CLI configuration, custom agents, MCP server setup, skills system

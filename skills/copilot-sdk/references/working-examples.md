@@ -2,6 +2,11 @@
 
 **Critical:** Register event handlers **before** calling `send()` to capture all events.
 
+**📚 Related Documents:**
+- For **production-ready real-world applications** with complete scenarios, see `practical-examples.md`
+- For **all event types** and lifecycle details, see `event-system.md`
+- For **troubleshooting** and debugging, see `troubleshooting.md`
+
 ---
 
 ## TypeScript/Node.js — Basic Usage
@@ -316,7 +321,6 @@ session = await client.create_session({
 
 ```python
 from copilot import define_tool, ToolInvocation
-from datetime import datetime
 
 # No params
 @define_tool(description="Get current time")
@@ -406,6 +410,8 @@ var session = await client.CreateSessionAsync(new SessionConfig
 ---
 
 # Hooks
+
+All six hooks demonstrated in each language. For **production-ready implementations** with complete application scenarios (session lifecycle management, error handling strategies, compliance audit systems), see `practical-examples.md`.
 
 ## TypeScript — All Hooks
 
